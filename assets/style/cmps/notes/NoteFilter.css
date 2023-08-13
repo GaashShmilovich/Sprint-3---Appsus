@@ -1,78 +1,75 @@
-
 .note-filter {
-    margin-inline: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  margin-inline: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
 
-    position: relative;
-
-  
+  position: relative;
 }
 
 .note-filter input {
-    width: 30vw;
-    height: 46px;
+  width: 30vw;
+  height: 46px;
 
-    border-radius: 10px;
-    background-color: var(--clr2);
-    border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: var(--clr2);
+  border: 1px solid transparent;
 
-    padding-inline: 30px;
+  padding-inline: 30px;
 
-    transition: 600ms;
+  transition: 600ms;
 }
 
 .note-filter .search-btn {
-    font-size: 28px;
-    /* padding: 8px; */
-    position: absolute;
-    left: 3px;
-    top: 10px;
+  font-size: 28px;
+  /* padding: 8px; */
+  position: absolute;
+  left: 3px;
+  top: 10px;
 }
 
 .note-filter .search-btn:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .filter-by-modal {
-    display: flex;
-    justify-content: space-around;
-    width: 60vw;
-    height: 26vh;
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+  height: 26vh;
 
-    position: fixed;
-    top: 26vh;
-    left: 30vw;
+  position: fixed;
+  top: 26vh;
+  left: 30vw;
 
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 1px 1px 4px 5px lightgray;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 5px lightgray;
 
-    background-color: var(--clr2);
-    z-index: 2;
+  background-color: var(--clr2);
+  z-index: 2;
 
-    translate: bottom;
+  translate: bottom;
 }
 
 .filter-by-modal h2 {
-    text-align: start;
-    margin: 1vw;
+  text-align: start;
+  margin: 1vw;
 }
 
 .filter-by-modal button {
-    display: flex;
-    flex-direction: column;
-    
-    gap: 20px;
-    align-items: center;
-    padding-top: 12px;
+  display: flex;
+  flex-direction: column;
 
-    width: 10vw;
-    height: 16vh;
+  gap: 20px;
+  align-items: center;
+  padding-top: 12px;
 
-    background-color: green;
-    color: aliceblue;
+  width: 10vw;
+  height: 16vh;
 
-    align-content: space-around;
-    margin-top: 30px;
+  background-color: green;
+  color: aliceblue;
+
+  align-content: space-around;
+  margin-top: 30px;
 }

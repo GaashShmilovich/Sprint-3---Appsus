@@ -10,9 +10,13 @@
 
 .app-header .logo {
   margin: 0;
-  margin-inline-end: auto;
+  margin-inline: auto;
   display: flex;
   align-items: center;
+}
+
+.app-header a {
+  margin-inline: auto;
 }
 
 .app-header .google-logo {

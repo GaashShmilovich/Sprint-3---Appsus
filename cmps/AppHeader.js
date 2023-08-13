@@ -1,17 +1,17 @@
 export default {
     template: `
         <header class="app-header">
-            <div class="logo">
+        <RouterLink to="/"> <div class="logo">
             <img src="../img/google.png" alt="" class="google-logo"/>
             <h1>Google</h1>
-            </div>
+            </div></RouterLink>
             
-            <nav>
-                <RouterLink to="/">Home</RouterLink>
+            <!-- <nav>
+                Home
                 <RouterLink to="/note">Keep</RouterLink>
                 <RouterLink to="/email">Gmail</RouterLink>
                 <RouterLink to="/about">About Us</RouterLink>
-            </nav>
+            </nav> -->
 
         </header>
     `,

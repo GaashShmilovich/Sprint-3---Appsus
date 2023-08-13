@@ -1,7 +1,8 @@
 export default {
-	template: `
+    template: `
         <section class="home-page">
-            <h1>Home sweet home</h1>
+            <RouterLink to="/email" class="gmail-link"><img src="../img/gmail.png" alt="" /></RouterLink>
+            <RouterLink to="/note" class="keep-link"><img src="../img/keep.png" alt="" /></RouterLink>
         </section>
     `,
 }

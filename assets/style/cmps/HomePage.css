@@ -1,0 +1,24 @@
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.home-page .keep-link {
+  width: 40%;
+  transition: 0.2s;
+}
+
+.home-page .keep-link:hover {
+  scale: 1.1;
+}
+
+.home-page .gmail-link {
+  width: 40%;
+  transition: 0.2s;
+}
+
+.home-page .gmail-link:hover {
+  scale: 1.1;
+}
